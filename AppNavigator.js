@@ -6,6 +6,7 @@ import GroupTeamsScreen from './GroupsTeamsScreen';
 import TournamentDayListScreen from './TournamentDayListScreen';
 import PointStandingScreen from './PointStandingScreen';
 import ScoreEntryScreen from './ScoreEntryScreen';
+import BottomNav from './BottomNav';
 // ... any other imports ...
 
 const Stack = createStackNavigator();
@@ -13,8 +14,8 @@ const Stack = createStackNavigator();
 function AppNavigator() {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="Home">
-        <Stack.Screen name="Home" component={HomeScreen} />
+      <Stack.Navigator initialRouteName="BottomNav">
+        <Stack.Screen name="BottomNav" component={BottomNav} options={{ headerShown: false }} />
         <Stack.Screen name="TournamentDetails" component={TournamentDetailsScreen} />
         <Stack.Screen name="GroupTeams" component={GroupTeamsScreen} />
         <Stack.Screen name="TournamentDayList" component={TournamentDayListScreen} />
