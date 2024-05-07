@@ -4,7 +4,6 @@ import { View, Text, StyleSheet } from 'react-native';
 const GroupsTeamsScreen = ({ route }) => {
   const { tournament } = route.params;
 
-  // You can replace this with actual group/team data
   const groupsTeams = [
     { id: 1, name: 'Group 1', players: ['Player 1', 'Player 2', 'Player 3', 'Player 4'] },
     { id: 2, name: 'Group 2', players: ['Player 5', 'Player 6', 'Player 7', 'Player 8'] },
