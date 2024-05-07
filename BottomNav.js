@@ -2,11 +2,11 @@ import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { Icon } from 'react-native-vector-icons/Ionicons';
 
-// Import your screens here
-import HomeScreen from './HomeScreen'; // Update with your actual HomeScreen path
-import ProfileScreen from './ProfileScreen'; // Update with your actual ProfileScreen path
-import PlayersScreen from './PlayersScreen'; // Update with your actual PlayersScreen path
-import MatchupScreen from './MatchupScreen'; // Update with your actual MatchupScreen path
+
+import HomeScreen from './HomeScreen';
+import ProfileScreen from './ProfileScreen';
+import PlayersScreen from './PlayersScreen';
+import MatchupScreen from './MatchupScreen';
 
 const Tab = createBottomTabNavigator();
 
