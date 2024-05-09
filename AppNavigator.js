@@ -7,7 +7,6 @@ import TournamentDayListScreen from './TournamentDayListScreen';
 import PointStandingScreen from './PointStandingScreen';
 import ScoreEntryScreen from './ScoreEntryScreen';
 import BottomNav from './BottomNav';
-// ... any other imports ...
 
 const Stack = createStackNavigator();
 
