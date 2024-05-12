@@ -20,7 +20,6 @@ function AppNavigator() {
         <Stack.Screen name="TournamentDayList" component={TournamentDayListScreen} />
         <Stack.Screen name="PointStanding" component={PointStandingScreen} />
         <Stack.Screen name="ScoreEntry" component={ScoreEntryScreen} />
-        {/* ... other screen components ... */}
       </Stack.Navigator>
     </NavigationContainer>
   );
